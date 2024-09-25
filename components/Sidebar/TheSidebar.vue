@@ -1,15 +1,12 @@
 <template>
   <div>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
+    <TheSidebarMenu />
   </div>
 </template>
 
 <script setup lang="ts">
 
+import TheSidebarMenu from "~/components/Sidebar/TheSidebarMenu.vue";
 </script>
 
 <style scoped>

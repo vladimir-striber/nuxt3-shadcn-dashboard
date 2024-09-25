@@ -2,7 +2,7 @@
   <div>
     <TheHeader />
     <div class="flex">
-      <TheSidebar />
+      <SidebarContainer />
       <slot />
     </div>
     <TheFooter />
@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 
-import TheSidebar from "~/components/Sidebar/TheSidebar.vue";
+import SidebarContainer from "~/containers/SidebarContainer.vue";
 </script>
 
 <style scoped>
