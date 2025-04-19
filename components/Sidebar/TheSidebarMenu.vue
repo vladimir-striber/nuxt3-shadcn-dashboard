@@ -1,8 +1,8 @@
 <template>
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <ul class="">
+    <li class="p-6">Item 1</li>
+    <li class="p-6">Item 2</li>
+    <li class="p-6">Item 3</li>
   </ul>
 </template>
 
